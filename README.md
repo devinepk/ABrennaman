@@ -2,7 +2,21 @@
 A Campaign Website for Albert Brennaman, Running for Constable in Fayette County, Kentucky
 
 
-# Instructions
+
+
+# How to Convert Sass files to CSS
+
+1. Divide your page into containers
+      * <div class="container"></div>
+
+2. Insert the text in the structure you want (headings/paragraphs, etc)
+
+3. Once the foundation is set up, use BootStraps documentation to apply formatting
+    * See https://getbootstrap.com/docs/4.1/getting-started/introduction/
+
+
+
+# Instructions for Setting up Browser-Sync
 
 This experiment introduces sass and browser-sync.
 
@@ -54,15 +68,3 @@ refresh when the watched files (output.css) change.
 
 Make another change to input.scss to see first sass, then browser-sync
 react to the update.
-
-
-
-# How to Convert Sass files to CSS
-
-1. Divide your page into containers
-      * <div class="container"></div>
-
-2. Insert the text in the structure you want (headings/paragraphs, etc)
-
-3. Once the foundation is set up, use BootStraps documentation to apply formatting
-    * See https://getbootstrap.com/docs/4.1/getting-started/introduction/
