@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "./node_modules/.bin/sass --watch main.scss output.css",
-    "browser-sync": "./node_modules/.bin/browser-sync start --server --files output.css",
+    "browser-sync": "./node_modules/.bin/browser-sync start --server --files output.css index.html main.js style.css",
     "dev": "./node_modules/.bin/concurrently \"npm run sass\" \"npm run browser-sync\""
   },
   "repository": {
